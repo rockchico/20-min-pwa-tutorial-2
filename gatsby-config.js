@@ -22,7 +22,8 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/20-min-pwa-tutorial-2`,
+        start_url: `/20-min-pwa-tutorial-2/`, // necessario / no começo e fim
+        crossOrigin: `use-credentials`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
